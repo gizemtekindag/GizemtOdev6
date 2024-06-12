@@ -3,15 +3,6 @@ import java.util.*;
 public class KelimeOyunu {
     public static void main(String[] args) {
 
- /*       List<String> kelimeDizi= new ArrayList<>();
-
-        kelimeDizi.add("kalem");
-        kelimeDizi.add("elalem");
-        kelimeDizi.add("kelam");
-        kelimeDizi.add("kelime");*/
-
-        //System.out.println(kelimeDizi);
-
         String [] kelimeDizi= {"kalem", "elalem", "kelam", "kelime"};
 
         String [] tekrarHarfliKelimeler=tekrarlıHarfliKelimeleriBul(kelimeDizi);
